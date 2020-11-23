@@ -187,11 +187,6 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl:64 \
     android.hardware.vibrator@1.0-service
 
-# VR
-PRODUCT_PACKAGES += \
-    android.hardware.vr@1.0-impl:64 \
-    android.hardware.vr@1.0-service
-
 # WEAVER
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0
@@ -203,10 +198,6 @@ PRODUCT_PACKAGES += \
 ### TETHERING
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
-
-### VR
-PRODUCT_PACKAGES += \
-    vr.msm8998
 
 ### WIFI
 PRODUCT_PACKAGES += \
