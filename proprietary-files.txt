@@ -601,14 +601,6 @@ vendor/firmware/a540_zap.b00
 vendor/firmware/a540_zap.b02
 vendor/firmware/a540_zap.elf
 
-# GRAPHICS_RENDERSCRIPT
-vendor/lib/libbccQTI.so
-vendor/lib/librs_adreno.so
-vendor/lib/librs_adreno_sha1.so
-vendor/lib64/libbccQTI.so
-vendor/lib64/librs_adreno.so
-vendor/lib64/librs_adreno_sha1.so
-
 # ILLUMINATION
 vendor/etc/init/init.illumination_service.rc|13064da8e0df787b28bbf713900a3887da3b29a5|6bb0594b157d8f8eaf827d1daa57f37d084b2871
 
@@ -642,10 +634,8 @@ system/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/seccomp_policy/mediaextractor.policy
 vendor/lib/libOmxVideoDSMode.so
-vendor/lib/libgpustats.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvqzip.so
-vendor/lib64/libgpustats.so
 vendor/lib64/libvpphvx.so
 
 # MISCTA - from tama - 52.1.A.3.49
