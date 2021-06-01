@@ -152,7 +152,7 @@ vendor/etc/mixer_paths.xml
 vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/usb_audio_policy_configuration.xml
-etc/audio_policy.conf
+system/etc/audio_policy.conf
 
 # AUDIO_EFFECTS
 vendor/etc/sony_effect/effect_params.data
@@ -165,8 +165,8 @@ vendor/etc/sony_effect/xloud_param_qdsp.bin
 vendor/lib/libmulawdec.so
 
 # BLUETOOTH
-lib/com.qualcomm.qti.bluetooth_audio@1.0.so
-lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
+system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 
 # CAMERA
 vendor/camera/SOI20BS2/color_ctrl.dat
@@ -251,16 +251,16 @@ vendor/lib/libsomc_yummy.so
 vendor/lib/libsomc_yummyrsc.so
 vendor/lib/libsony_fooddetect.so
 vendor/lib/libsony_naruto.so
-lib/libcacao_client.so
-lib/libcacao_pal.so
-lib/libcacao_process_ctrl_gateway.so
-lib/libcacao_service.so
-lib/vendor.somc.hardware.camera.cacao@1.0.so
-lib/vendor.somc.hardware.camera.cacao@2.0.so
-lib/vendor.somc.hardware.camera.cacao@3.0.so
-lib/vendor.somc.hardware.camera.cacao@3.1.so
-lib/vendor.somc.hardware.camera.device@1.0.so
-lib/vendor.somc.hardware.camera.provider@1.0.so
+system/lib/libcacao_client.so
+system/lib/libcacao_pal.so
+system/lib/libcacao_process_ctrl_gateway.so
+system/lib/libcacao_service.so
+system/lib/vendor.somc.hardware.camera.cacao@1.0.so
+system/lib/vendor.somc.hardware.camera.cacao@2.0.so
+system/lib/vendor.somc.hardware.camera.cacao@3.0.so
+system/lib/vendor.somc.hardware.camera.cacao@3.1.so
+system/lib/vendor.somc.hardware.camera.device@1.0.so
+system/lib/vendor.somc.hardware.camera.provider@1.0.so
 
 # CAMERA_FIRMWARE
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -276,9 +276,9 @@ vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # CAMERA_POSTPROCESSING
-lib/libjni_imageutil.so
-lib/libjni_snapcammosaic.so
-lib/libjni_snapcamtinyplanet.so
+system/lib/libjni_imageutil.so
+system/lib/libjni_snapcammosaic.so
+system/lib/libjni_snapcamtinyplanet.so
 
 # CHARGER
 vendor/bin/hvdcp_opti
@@ -414,13 +414,13 @@ system_ext/lib64/vendor.qti.latency@2.0.so|346a9a67699df13a6c553bc3727c0e07b2718
 system_ext/lib64/vendor.qti.latency@2.1.so|6f1aabb40bc6f90ec39a1f55c29a6ba63a326f60
 
 # CUSTOMIZATIONSELECTOR
-etc/permissions/com.sonymobile.miscta.xml
-etc/public.libraries-sony.txt
-framework/com.sonymobile.miscta_impl.jar
-lib/libMiscTAApi.sony.so
-lib/libMiscTaWrapper.so
-lib64/libMiscTAApi.sony.so
-lib64/libMiscTaWrapper.so
+system/etc/permissions/com.sonymobile.miscta.xml
+system/etc/public.libraries-sony.txt
+system/framework/com.sonymobile.miscta_impl.jar
+system/lib/libMiscTAApi.sony.so
+system/lib/libMiscTaWrapper.so
+system/lib64/libMiscTAApi.sony.so
+system/lib64/libMiscTaWrapper.so
 
 # DISPLAY_COLOR
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -447,15 +447,15 @@ vendor/lib64/libsdmextension.so|7d0a49fd74e4b4d93a3d379267372ceaa79ca264
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # DISPLAY
-etc/permissions/com.qti.snapdragon.sdk.display.xml
-framework/com.qti.snapdragon.sdk.display.jar
-lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
-lib64/libsys-utils-system.so
-lib64/vendor.display.color@1.0.so
-lib64/vendor.display.color@1.1.so
-lib64/vendor.display.color@1.2.so
-lib64/vendor.display.postproc@1.0.so
-lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+system/etc/permissions/com.qti.snapdragon.sdk.display.xml
+system/framework/com.qti.snapdragon.sdk.display.jar
+system/lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
+system/lib64/libsys-utils-system.so
+system/lib64/vendor.display.color@1.0.so
+system/lib64/vendor.display.color@1.1.so
+system/lib64/vendor.display.color@1.2.so
+system/lib64/vendor.display.postproc@1.0.so
+system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/bin/mm-pp-dpps
 vendor/etc/ad_calib.cfg
 vendor/lib/libdisp-aba.so
@@ -465,7 +465,7 @@ vendor/lib64/libdisp-aba.so
 vendor/bin/dpmQmiMgr|61a421804559b0e461439c19088acc01b871982a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
-framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
+system/framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
 system_ext/bin/dpmd|dc94ffe90c6658b0bc99c64f68517c4048d0321a
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
@@ -481,16 +481,16 @@ system_ext/lib64/libdpmtcm.so|dff3d3dbacd18ed55b5758a174f5016ef9e7a896
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
 
 # DSP
-lib/libadsprpc_system.so
-lib/libcdsprpc_system.so
-lib/libmdsprpc_system.so
-lib/libsdsprpc_system.so
-lib/libseemore.so
-lib64/libadsprpc_system.so
-lib64/libcdsprpc_system.so
-lib64/libmdsprpc_system.so
-lib64/libsdsprpc_system.so
-lib64/libseemore.so
+system/lib/libadsprpc_system.so
+system/lib/libcdsprpc_system.so
+system/lib/libmdsprpc_system.so
+system/lib/libsdsprpc_system.so
+system/lib/libseemore.so
+system/lib64/libadsprpc_system.so
+system/lib64/libcdsprpc_system.so
+system/lib64/libmdsprpc_system.so
+system/lib64/libsdsprpc_system.so
+system/lib64/libseemore.so
 
 # DRM
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|459f1a389d89491fa5820f53f5ea79d4dc72973a|6176af6760e3a8b136b6b2355eb946ec31348d64
@@ -506,63 +506,63 @@ vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # FFU
-sbin/ffu:vendor/bin/ffu
+system/sbin/ffu:vendor/bin/ffu
 
 # FINGERPRINT
 vendor/etc/init/fpc_fingerprint@2.1_HIDL-service.rc
 
 # FINGERPRINT_EXTENSION
-etc/permissions/com.fingerprints.extension.xml
-framework/com.fingerprints.extension.jar
+system/etc/permissions/com.fingerprints.extension.xml
+system/framework/com.fingerprints.extension.jar
 
 # FIRMWARE
-etc/firmware/cmnlib.b00
-etc/firmware/cmnlib.b02
-etc/firmware/cmnlib.b03
-etc/firmware/cmnlib.b04
-etc/firmware/cmnlib.b05
-etc/firmware/cmnlib.b06
-etc/firmware/cmnlib64.b00
-etc/firmware/cmnlib64.b02
-etc/firmware/cmnlib64.b03
-etc/firmware/cmnlib64.b04
-etc/firmware/cmnlib64.b05
-etc/firmware/cmnlib64.b06
-etc/firmware/fidocfg.b00
-etc/firmware/fidocfg.b02
-etc/firmware/fidocfg.b03
-etc/firmware/fidocfg.b04
-etc/firmware/fidocfg.b05
-etc/firmware/fidocfg.b06
-etc/firmware/fidocfg.b07
-etc/firmware/fidocrypto.b00
-etc/firmware/fidocrypto.b02
-etc/firmware/fidocrypto.b03
-etc/firmware/fidocrypto.b04
-etc/firmware/fidocrypto.b05
-etc/firmware/fidocrypto.b06
-etc/firmware/fidocrypto.b07
-etc/firmware/tzattest.b00
-etc/firmware/tzattest.b02
-etc/firmware/tzattest.b03
-etc/firmware/tzattest.b04
-etc/firmware/tzattest.b05
-etc/firmware/tzattest.b06
-etc/firmware/tzattest.b07
-etc/firmware/tzsuntory.b00
-etc/firmware/tzsuntory.b02
-etc/firmware/tzsuntory.b03
-etc/firmware/tzsuntory.b04
-etc/firmware/tzsuntory.b05
-etc/firmware/tzsuntory.b06
-etc/firmware/tzsuntory.b07
-etc/firmware/tztpm.b00
-etc/firmware/tztpm.b02
-etc/firmware/tztpm.b03
-etc/firmware/tztpm.b04
-etc/firmware/tztpm.b05
-etc/firmware/tztpm.b06
-etc/firmware/tztpm.b07
+system/etc/firmware/cmnlib.b00
+system/etc/firmware/cmnlib.b02
+system/etc/firmware/cmnlib.b03
+system/etc/firmware/cmnlib.b04
+system/etc/firmware/cmnlib.b05
+system/etc/firmware/cmnlib.b06
+system/etc/firmware/cmnlib64.b00
+system/etc/firmware/cmnlib64.b02
+system/etc/firmware/cmnlib64.b03
+system/etc/firmware/cmnlib64.b04
+system/etc/firmware/cmnlib64.b05
+system/etc/firmware/cmnlib64.b06
+system/etc/firmware/fidocfg.b00
+system/etc/firmware/fidocfg.b02
+system/etc/firmware/fidocfg.b03
+system/etc/firmware/fidocfg.b04
+system/etc/firmware/fidocfg.b05
+system/etc/firmware/fidocfg.b06
+system/etc/firmware/fidocfg.b07
+system/etc/firmware/fidocrypto.b00
+system/etc/firmware/fidocrypto.b02
+system/etc/firmware/fidocrypto.b03
+system/etc/firmware/fidocrypto.b04
+system/etc/firmware/fidocrypto.b05
+system/etc/firmware/fidocrypto.b06
+system/etc/firmware/fidocrypto.b07
+system/etc/firmware/tzattest.b00
+system/etc/firmware/tzattest.b02
+system/etc/firmware/tzattest.b03
+system/etc/firmware/tzattest.b04
+system/etc/firmware/tzattest.b05
+system/etc/firmware/tzattest.b06
+system/etc/firmware/tzattest.b07
+system/etc/firmware/tzsuntory.b00
+system/etc/firmware/tzsuntory.b02
+system/etc/firmware/tzsuntory.b03
+system/etc/firmware/tzsuntory.b04
+system/etc/firmware/tzsuntory.b05
+system/etc/firmware/tzsuntory.b06
+system/etc/firmware/tzsuntory.b07
+system/etc/firmware/tztpm.b00
+system/etc/firmware/tztpm.b02
+system/etc/firmware/tztpm.b03
+system/etc/firmware/tztpm.b04
+system/etc/firmware/tztpm.b05
+system/etc/firmware/tztpm.b06
+system/etc/firmware/tztpm.b07
 
 # GRAPHICS
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -595,8 +595,8 @@ vendor/lib64/libadreno_utils.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libgsl.so
 vendor/lib64/libllvm-glnext.so
-lib/libOpenCL_system.so
-lib64/libOpenCL_system.so
+system/lib/libOpenCL_system.so
+system/lib64/libOpenCL_system.so
 
 # GRAPHICS_FIRMWARE
 vendor/firmware/a225_pfp.fw
@@ -658,8 +658,8 @@ vendor/etc/init/init.kobjeventd.rc
 # LIGHT
 vendor/etc/init/vendor.semc.hardware.light@1.0-service.rc
 vendor/etc/permissions/android.hardware.light.xml
-lib/vendor.semc.hardware.light@1.0.so
-lib64/vendor.semc.hardware.light@1.0.so
+system/lib/vendor.semc.hardware.light@1.0.so
+system/lib64/vendor.semc.hardware.light@1.0.so
 
 # MEDIA
 vendor/etc/seccomp_policy/mediacodec.policy
@@ -670,8 +670,8 @@ vendor/lib/libvpphvx.so
 vendor/lib/libvqzip.so
 vendor/lib64/libgpustats.so
 vendor/lib64/libvpphvx.so
-lib/vendor.qti.hardware.vpp@1.1.so
-lib64/vendor.qti.hardware.vpp@1.1.so
+system/lib/vendor.qti.hardware.vpp@1.1.so
+system/lib64/vendor.qti.hardware.vpp@1.1.so
 
 # MISCTA - from tama - 52.1.A.3.49
 vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service|c84f3140577daf0119b7782662540785a9b54dde
@@ -679,14 +679,14 @@ vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc|666428a82ff6c43b3a765
 vendor/lib64/vendor.somc.hardware.miscta@1.0.so|4ebf19d447872c7af28bed0aff965187d634f8cb
 
 # MODEM
-bin/sony-modem-switcher
+system/bin/sony-modem-switcher
 
 # MSM
 vendor/bin/msm_irqbalance
 
 # MSS
-bin/mssconfig
-etc/init/mssconfig.rc
+system/bin/mssconfig
+system/etc/init/mssconfig.rc
 
 # PD_MAPPER - from SLD_sprout - RKQ1.210607.001-00WW_3_710
 vendor/bin/pd-mapper|8eb9717d2ee4da59c64ec89a85bf4e384663322b
@@ -734,16 +734,16 @@ vendor/lib64/libsi.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
-lib/libGPTEE_system.so
-lib/libsecureui_svcsock_system.so
-lib/vendor.qti.hardware.tui_comm@1.0.so
-lib64/libGPTEE_system.so
-lib64/libsecureui_svcsock_system.so
-lib64/vendor.qti.hardware.tui_comm@1.0.so
+system/lib/libGPTEE_system.so
+system/lib/libsecureui_svcsock_system.so
+system/lib/vendor.qti.hardware.tui_comm@1.0.so
+system/lib64/libGPTEE_system.so
+system/lib64/libsecureui_svcsock_system.so
+system/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # QTI_ANT
-lib/com.qualcomm.qti.ant@1.0.so
-lib64/com.qualcomm.qti.ant@1.0.so
+system/lib/com.qualcomm.qti.ant@1.0.so
+system/lib64/com.qualcomm.qti.ant@1.0.so
 
 # QTI_BLUETOOTH
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -758,23 +758,23 @@ vendor/lib64/libqmi_common_so.so|4a162382e0d611dacbb803371e78eb56786078b9
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
 # QTI_DRM
-lib/libFidoCryptoJNI.so
-lib/libFidoCrypto_system.so
-lib/libGPQTEEC_system.so
-lib/libQTEEConnector_system.so
-lib/libseccam.so
-lib/vendor.qti.hardware.qteeconnector@1.0.so
-lib64/libFidoCryptoJNI.so
-lib64/libFidoCrypto_system.so
-lib64/libGPQTEEC_system.so
-lib64/libQTEEConnector_system.so
-lib64/libseccam.so
-lib64/vendor.qti.hardware.qteeconnector@1.0.so
+system/lib/libFidoCryptoJNI.so
+system/lib/libFidoCrypto_system.so
+system/lib/libGPQTEEC_system.so
+system/lib/libQTEEConnector_system.so
+system/lib/libseccam.so
+system/lib/vendor.qti.hardware.qteeconnector@1.0.so
+system/lib64/libFidoCryptoJNI.so
+system/lib64/libFidoCrypto_system.so
+system/lib64/libGPQTEEC_system.so
+system/lib64/libQTEEConnector_system.so
+system/lib64/libseccam.so
+system/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_ESEPOWERMANAGER
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 vendor/etc/powerhint.xml
-lib64/vendor.qti.esepowermanager@1.0.so
+system/lib64/vendor.qti.esepowermanager@1.0.so
 
 # QTI_GNSS - from SLD_sprout - RKQ1.210607.001-00WW_3_710
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|ec8dd6ddeecb9539899ec89a5950d422b6ece916
@@ -1068,15 +1068,15 @@ vendor/etc/init/sct_service.rc
 vendor/etc/init/vendor.semc.hardware.secd@1.0-service.rc
 
 # SEMC_IDD
-lib/vendor.semc.system.idd@1.0.so
-lib64/vendor.semc.system.idd@1.0.so
+system/lib/vendor.semc.system.idd@1.0.so
+system/lib64/vendor.semc.system.idd@1.0.so
 
 # SEMC_SECD
-lib64/vendor.somc.hardware.security.secd@1.0.so
+system/lib64/vendor.somc.hardware.security.secd@1.0.so
 
 # SOMC_MISCTA - from tama - 52.1.A.3.49
-lib/vendor.somc.hardware.miscta@1.0.so|4a968e39a9ad5a6bedb36a61f12f3e4a649745c8
-lib64/vendor.somc.hardware.miscta@1.0.so|3349b02e83ec7fe7d7b1cbc698fbc52e156c3642
+system/lib/vendor.somc.hardware.miscta@1.0.so|4a968e39a9ad5a6bedb36a61f12f3e4a649745c8
+system/lib64/vendor.somc.hardware.miscta@1.0.so|3349b02e83ec7fe7d7b1cbc698fbc52e156c3642
 
 # SENSORS
 vendor/etc/sensors/sensor_def_qcomdev.conf
@@ -1098,12 +1098,12 @@ vendor/etc/change.cfg
 vendor/etc/init/init.touchbacklightd.rc|2f6a8db3dbf4bd4a851a7f07ea40bac973656a33|ea15d0aca19ca841c2484ca8f1f6d79a8f5c135c
 
 # TRIMAREA
-etc/init/taimport.rc
-lib64/libdevice_security_client.so
+system/etc/init/taimport.rc
+system/lib64/libdevice_security_client.so
 
 # UDATEMISCTA
-bin/taimport
-etc/init/updatemiscta.rc
+system/bin/taimport
+system/etc/init/updatemiscta.rc
 
 # WIFI
 vendor/etc/wifi/fstman.ini
