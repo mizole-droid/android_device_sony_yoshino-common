@@ -150,8 +150,6 @@ vendor/etc/default_volume_tables.xml
 vendor/etc/graphite_ipc_platform_info.xml
 vendor/etc/listen_platform_info.xml
 vendor/etc/mixer_paths.xml
-vendor/etc/sound_trigger_mixer_paths.xml
-vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/usb_audio_policy_configuration.xml
 
 # AUDIO_EFFECTS
