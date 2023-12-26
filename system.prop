@@ -60,6 +60,9 @@ ro.qualcomm.cabl=0
 # Display default color mode enable
 vendor.display.enable_default_color_mode=1
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # HWComposer
 debug.renderengine.backend=skiaglthreaded
 debug.sf.enable_hwc_vds=1
