@@ -209,3 +209,7 @@ persist.debug.wfd.enable=1
 
 # Property to choose between virtual/external wfd display
 persist.sys.wfd.virtual=0
+
+### ZYGOTE
+# Workaround for the Bluetooth and NFC sanitize shadow call stack (SCS) crash
+ro.zygote.disable_gl_preload=1
