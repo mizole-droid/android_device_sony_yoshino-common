@@ -111,7 +111,6 @@ DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest_dsds.xml
 else
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
 endif
-DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
 
 ### PROPS
 TARGET_ODM_PROP += $(PLATFORM_PATH)/odm.prop
