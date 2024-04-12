@@ -26,10 +26,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 QCOM_SOONG_NAMESPACE := $(PLATFORM_PATH)/hardware/qcom-caf
 
-### APEX
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
