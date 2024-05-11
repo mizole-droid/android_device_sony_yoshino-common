@@ -183,27 +183,8 @@ service vendor.atfwd /vendor/bin/ATFWD-daemon
     group system radio
     task_profiles ServiceCapacityLow
 
-service vendor.netmgrd /system/vendor/bin/netmgrd
-    class main
-
-service vendor.port-bridge /system/vendor/bin/port-bridge
-    class main
-    user radio
-    group radio system inet
-    oneshot
-
 on boot && property:persist.radio.multisim.config=dsds
     start vendor.qcrild2
-
-service vendor.rmt_storage /vendor/bin/rmt_storage
-    class core
-    user root
-    shutdown critical
-    ioprio rt 0
-
-service vendor.tftp_server /vendor/bin/tftp_server
-    class core
-    user root
 
 on property:vold.decrypt=trigger_restart_framework
     start vendor.ipacm
