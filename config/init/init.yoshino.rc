@@ -450,6 +450,7 @@ on boot
     chown wifi wifi /sys/kernel/boot_wlan/boot_wlan
 
     start vendor.qcrild
+    start vendor.dataqti
 
 on shutdown
     write /sys/class/power_supply/battery/int_cld 1
