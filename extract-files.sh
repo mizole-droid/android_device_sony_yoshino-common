@@ -140,6 +140,12 @@ grep -q "libgui_shim.so" "${DEVICE_COMMON_ROOT}"/system_ext/lib64/lib-imsvideoco
 "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_COMMON_ROOT}"/lib64/vendor.semc.system.idd@1.0.so
 "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_COMMON_ROOT}"/lib64/vendor.somc.hardware.security.secd@1.0.so
 
+# Replace writepid with task_profiles command for cgroup migration
+sed -i 's/writepid\ \/dev\/cpuset\/foreground\/tasks/task_profiles\ ProcessCapacityHigh/g' "${DEVICE_COMMON_ROOT}"/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+sed -i 's/writepid\ \/dev\/cpuset\/system-background\/tasks/task_profiles\ ServiceCapacityLow/g' "${DEVICE_COMMON_ROOT}"/vendor/etc/init/init.illumination_service.rc
+sed -i 's/writepid\ \/dev\/cpuset\/system-background\/tasks/task_profiles\ ServiceCapacityLow/g' "${DEVICE_COMMON_ROOT}"/vendor/etc/init/init.touchbacklightd.rc
+sed -i 's/writepid \/dev\/cpuset\/camera-daemon\/tasks\ \/dev\/stune\/top-app\/tasks/task_profiles\ CameraServiceCapacity\ MaxPerformance/g' "${DEVICE_COMMON_ROOT}"/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
+
 #
 # Blobs fixup end
 #

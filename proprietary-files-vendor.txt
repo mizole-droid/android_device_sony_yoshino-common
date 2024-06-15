@@ -204,7 +204,7 @@ vendor/camera/SOI20BS2/prc_image_conv.dat
 vendor/camera/SOI20BS2/scene_detector.dat
 vendor/camera/SOI20BS2_BU64747GWZ_XCF.dat
 vendor/camera/SOI20BS2_BU64747GWZ_XFW.dat
-vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
+vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc|e200ef3fae65791e2c4e628c70c0e3ecb89bf88c
 vendor/etc/flashled_calc_parameters.cfg
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libsomc_alfort.so
@@ -367,7 +367,7 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f2
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
 # DRM
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|6176af6760e3a8b136b6b2355eb946ec31348d64
 
 # DRM_HDCP
 vendor/bin/hdcp1prov
@@ -454,7 +454,7 @@ sbin/ffu:vendor/bin/ffu
 vendor/etc/init/fpc_fingerprint@2.1_HIDL-service.rc
 
 # ILLUMINATION
-vendor/etc/init/init.illumination_service.rc
+vendor/etc/init/init.illumination_service.rc|6bb0594b157d8f8eaf827d1daa57f37d084b2871
 
 # IPA_FIRMWARE
 vendor/firmware/ipa_fws.b00
@@ -798,7 +798,7 @@ vendor/etc/init/vendor.semc.hardware.thermal@1.0-service.rc
 vendor/etc/change.cfg
 
 # TOUCHBACKLIGHT
-vendor/etc/init/init.touchbacklightd.rc
+vendor/etc/init/init.touchbacklightd.rc|ea15d0aca19ca841c2484ca8f1f6d79a8f5c135c
 
 # WIFI
 vendor/etc/wifi/fstman.ini
