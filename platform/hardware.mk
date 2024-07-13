@@ -42,7 +42,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gralloc.msm8998 \
     hwcomposer.msm8998 \
-    memtrack.msm8998 \
     libdisplayconfig
 
 ### IPACM
@@ -145,8 +144,7 @@ PRODUCT_PACKAGES += \
 
 # MEMTRACK
 PRODUCT_PACKAGES += \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service
+    vendor.qti.hardware.memtrack-service
 
 # NETD
 PRODUCT_PACKAGES += \
