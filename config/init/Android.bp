@@ -1,0 +1,167 @@
+//
+// SPDX-FileCopyrightText: 2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init configuration files
+
+prebuilt_etc {
+    name: "fstab.lilac",
+    filename: "fstab.lilac",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.poplar",
+    filename: "fstab.poplar",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.poplar_canada",
+    filename: "fstab.poplar_canada",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.poplar_dsds",
+    filename: "fstab.poplar_dsds",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.poplar_kddi",
+    filename: "fstab.poplar_kddi",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.maple",
+    filename: "fstab.maple",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.maple_dsds",
+    filename: "fstab.maple_dsds",
+    src: "fstab.yoshino",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.lilac.rc",
+    filename: "init.lilac.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.poplar.rc",
+    filename: "init.poplar.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.poplar_canada.rc",
+    filename: "init.poplar_canada.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.poplar_dsds.rc",
+    filename: "init.poplar_dsds.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.poplar_kddi.rc",
+    filename: "init.poplar_kddi.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.maple.rc",
+    filename: "init.maple.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.maple_dsds.rc",
+    filename: "init.maple_dsds.rc",
+    src: "init.yoshino.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.yoshino.ims.rc",
+    src: "init.yoshino.ims.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.yoshino.pwr.rc",
+    src: "init.yoshino.pwr.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.yoshino.qcom.rc",
+    src: "init.yoshino.qcom.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.yoshino.srv.rc",
+    src: "init.yoshino.srv.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.yoshino.usb.rc",
+    src: "init.yoshino.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.rc",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.early_boot.sh",
+    src: "init.qcom.early_boot.sh",
+    sub_dir: "bin",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.radio.sh",
+    src: "init.qcom.radio.sh",
+    sub_dir: "bin",
+    vendor: true,
+}
