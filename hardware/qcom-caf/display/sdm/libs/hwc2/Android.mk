@@ -15,10 +15,6 @@ LOCAL_HEADER_LIBRARIES        := display_headers
 LOCAL_CFLAGS                  := -Wno-missing-field-initializers -Wno-unused-parameter \
                                  -fcolor-diagnostics\
                                  -DLOG_TAG=\"SDM\" $(common_flags)
-ifeq ($(TARGET_EXCLUDES_DISPLAY_PP), true)
-LOCAL_CFLAGS += -DEXCLUDE_DISPLAY_PP
-endif
-
 LOCAL_CLANG                   := true
 
 # TODO: Remove libui after addressing gpu_tonemapper issues
