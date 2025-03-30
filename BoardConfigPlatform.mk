@@ -42,7 +42,6 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 ### KERNEL
 TARGET_KERNEL_SOURCE  := kernel/sony/msm8998
 TARGET_KERNEL_VERSION := 4.4
-KERNEL_LTO=full
 
 # Taken from unpacked stock boot.img / README_Xperia in Kernel source
 BOARD_KERNEL_CMDLINE += ehci-hcd.park=3
