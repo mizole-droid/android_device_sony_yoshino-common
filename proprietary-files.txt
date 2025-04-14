@@ -262,6 +262,9 @@ vendor/lib/libsomc_yummyrsc.so
 vendor/lib/libsony_fooddetect.so
 vendor/lib/libsony_naruto.so
 
+# CAMERA DUMMY LIBS
+vendor/lib/libmmcamera_dbg.so;DUMMY_SHARED_LIB
+
 # CAMERA_FIRMWARE
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
