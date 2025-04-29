@@ -124,7 +124,7 @@ system_ext/lib64/libdpmctmgr.so|8a687fce30df9483a96065e6cc4154f03562dfa9
 system_ext/lib64/libdpmfdmgr.so|bf3666db17e77da3a303c10579baec0bd018089f
 system_ext/lib64/libdpmframework.so|235fbb48b47baebd48dbe56f72c77d97ca12c07c
 system_ext/lib64/libdpmtcm.so|dff3d3dbacd18ed55b5758a174f5016ef9e7a896
-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|10828ba0d987fa884ad0b4a87a46bf9f505535ea
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
 
 # DSP
 lib/libadsprpc_system.so
@@ -211,8 +211,8 @@ bin/mssconfig
 etc/init/mssconfig.rc
 
 # QCRIL_RADIO - from from FP3 - 6.A.025.0
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|341ac4f8b754883df97f2e9920f1e9a255a6a160
-system_ext/app/embms/embms.apk|09134a1bd2d67e55caf81af08ac44f02abd55d18
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|135766f2358582736bc3ef4edbe3ff389c9753c2
+system_ext/app/embms/embms.apk|010db3d97f4faad191f1a53415d7cf0a94dabcd1
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
 system_ext/etc/permissions/lpa.xml|616bb190e6020c307049932346e55a7363dfee34
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
@@ -220,7 +220,7 @@ system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94
 system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
 system_ext/framework/qcrilhook.jar|2851c62bf5d823c4228bfc6c56613934517ffdee
 system_ext/framework/uimlpalibrary.jar|785485628d349ccd5006c3aec47e2d82c8e14191
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|87719275d1e87dec4b3e9f1a8e7373c7937c9dd8
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|1b07cb8ba5b6e28cd3d99e364a5b4e59cfffa3e7
 
 # QSEECOMD
 lib/libGPTEE_system.so
@@ -252,7 +252,7 @@ lib64/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/vendor.qti.esepowermanager@1.0.so
 
 # QTI_IMS - from from FP3 - 6.A.025.0
-system_ext/app/imssettings/imssettings.apk|4c9c654c15a65bf0cc298416fce2ee404df6b415
+system_ext/app/imssettings/imssettings.apk|1ff150a0f0bab86a4d5dfaeae5340d3a29e6be96
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
@@ -306,7 +306,7 @@ system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|87b7b16b854f2f47706d974f2d3f138e
 system_ext/lib64/vendor.qti.ims.factory@1.0.so|1421a7d0390c9ecd71c60fac026ca3499dddd913
 system_ext/lib64/vendor.qti.ims.factory@1.1.so|c6c1813b2c6bb68c8c38a6b5ddf320b418bc0da9
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
-system_ext/priv-app/ims/ims.apk|16b82e1e0113beb7fb3a62a9a5513b317675d96e
+system_ext/priv-app/ims/ims.apk|f421b98027c136e7a55bea2ea60540ab3aea2ee9
 
 # QTI_QMI - from from FP3 - 6.A.025.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
