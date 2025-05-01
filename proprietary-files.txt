@@ -1024,6 +1024,9 @@ vendor/bin/tad|0fe3daaa4a4dace32944ebb8daf52fdffdcfac8a
 vendor/etc/change.cfg
 vendor/etc/init/vendor.semc.hardware.thermal@1.0-service.rc
 
+# TIME DUMMY LIBS
+vendor/lib64/libtime_genoff.so;DUMMY_SHARED_LIB
+
 # TOUCHBACKLIGHT
 vendor/etc/init/init.touchbacklightd.rc|2f6a8db3dbf4bd4a851a7f07ea40bac973656a33|ea15d0aca19ca841c2484ca8f1f6d79a8f5c135c
 
