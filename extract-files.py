@@ -50,11 +50,8 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/lib-imsvideocodec.so': blob_fixup()
         .add_needed('libgui_shim.so'),
     (
-        'system/lib/libjni_imageutil.so',
         'system/lib/libjni_snapcammosaic.so',
         'system/lib/libjni_snapcamtinyplanet.so',
-        'system/lib/libseemore.so',
-        'system/lib64/libseemore.so',
         'vendor/lib/libsomc_alfortlp.so',
         'vendor/lib/libsomc_alfortlpserv.so',
         'vendor/lib/libsomc_alfortrsc.so',
