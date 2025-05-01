@@ -22,6 +22,7 @@ namespace_imports = [
     'device/sony/yoshino-common',
     'hardware/qcom-caf/msm8998',
     'hardware/qcom-caf/wlan',
+    'vendor/qcom/opensource/dataservices',
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
