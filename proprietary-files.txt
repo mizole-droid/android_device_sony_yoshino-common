@@ -699,6 +699,9 @@ vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
+# QSEECOMD DUMMY LIBS
+vendor/lib64/libStDrvInt.so;DUMMY_SHARED_LIB
+
 # QTI_ANT
 system/lib/com.qualcomm.qti.ant@1.0.so
 system/lib64/com.qualcomm.qti.ant@1.0.so
