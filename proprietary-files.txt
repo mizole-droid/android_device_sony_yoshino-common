@@ -621,16 +621,6 @@ system/lib64/vendor.semc.hardware.light@1.0.so
 vendor/etc/init/vendor.semc.hardware.light@1.0-service.rc
 vendor/etc/permissions/android.hardware.light.xml
 
-# MEDIA
-system/lib/vendor.qti.hardware.vpp@1.1.so
-system/lib64/vendor.qti.hardware.vpp@1.1.so
-vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/seccomp_policy/mediaextractor.policy
-vendor/lib/libOmxVideoDSMode.so
-vendor/lib/libvpphvx.so
-vendor/lib/libvqzip.so
-vendor/lib64/libvpphvx.so
-
 # MISCTA - from tama - 52.1.A.3.49
 vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service|c84f3140577daf0119b7782662540785a9b54dde
 vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc|666428a82ff6c43b3a765825c160ed32106080b8
