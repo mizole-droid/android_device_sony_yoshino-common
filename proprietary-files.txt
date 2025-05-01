@@ -473,16 +473,6 @@ system/lib64/libseemore.so
 # DRM
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|459f1a389d89491fa5820f53f5ea79d4dc72973a|6176af6760e3a8b136b6b2355eb946ec31348d64
 
-# DRM_HDCP
-vendor/bin/hdcp1prov
-vendor/bin/hdcp2p2prov
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
-vendor/lib64/libmm-hdcpmgr.so
-
 # FFU
 system/sbin/ffu:vendor/bin/ffu
 
