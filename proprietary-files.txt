@@ -718,10 +718,10 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 
 # QTI_DEPENDENCIES - from from FP3 - 6.A.025.0
 vendor/lib/libdiag.so|0a9a6aa74b1728bfb9c6b3ccd7cf0a5bdbc29434
-vendor/lib/libminksocket.so|234533783b5dfc4353b9eff43c2bbce164de7c12
 vendor/lib64/libdiag.so|174ff3f940288d2d1503230465dfe917ab9d155b
 vendor/lib64/libminksocket.so|103f45603bef0d1fbf52ccdf8458dd31cabe3945
 vendor/lib64/libmmosal.so|d400435a7bb49c1589efd0a63274cbf6d53f0c7b
+vendor/lib64/libqrtr.so|2e4d6aa5344159c36ccd34cc341ee29d6f0424a1
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
 # QTI_DRM
@@ -898,7 +898,6 @@ vendor/lib64/libqmi_csi.so|6d22ed6353c791ea1804c195b92b02dc28a679c3
 vendor/lib64/libqmi_encdec.so|8a365cf7472c187c02fa0649e09fee529ded7563
 vendor/lib64/libqmi_legacy.so|5dc657620cfaa6b13bd37268459c7247bae58770
 vendor/lib64/libqmiservices.so|2e259463cbeb329caec303b642ab4068c8d10be5
-vendor/lib64/libqrtr.so|2e4d6aa5344159c36ccd34cc341ee29d6f0424a1
 vendor/lib64/libqsocket.so|0817c4699f08d2595971f8103776a369bd15580d
 vendor/lib64/libril-qc-hal-qmi.so|cc70a2e8e2435dee4cb396dadbcd7c4c244287bd
 vendor/lib64/libril-qc-logger.so|7f80da37d120faffd72838b76d74102c7321e3a3
