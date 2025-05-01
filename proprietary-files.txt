@@ -321,31 +321,6 @@ system_ext/lib64/com.quicinc.cne.api@1.1.so|0b7d8bca2364f1445f3ba1208fc68f7eac75
 system_ext/lib64/com.quicinc.cne.constants@1.0.so|e700fbf189a96fe1821a89d59d04c7d14ab14cf7
 system_ext/lib64/com.quicinc.cne.constants@2.0.so|a5d80268d940651509d9bfc10f38538d6da04580
 system_ext/lib64/com.quicinc.cne.constants@2.1.so|cf8a4412ca6ee339ac0dc2a14a9fad3091874c6f
-system_ext/lib64/vendor.qti.data.factory@1.0.so|0a411ac2beb5e95d043e734446c855ab92ec1816
-system_ext/lib64/vendor.qti.data.factory@2.0.so|84b93cf877ee0bec8567d40c99f784f6ddce6a53
-system_ext/lib64/vendor.qti.data.factory@2.1.so|1558598fee9a676af8781496bad4874775bac82d
-system_ext/lib64/vendor.qti.data.factory@2.2.so|931f4b7c07885ad63f42876ca1a1a9bc72e747fb
-system_ext/lib64/vendor.qti.data.factory@2.3.so|5d689c9759cd3a6217eb451e54903e83a843dc90
-system_ext/lib64/vendor.qti.data.mwqem@1.0.so|591242cdae3b1e354d9768546bc9d92c4304dc16
-system_ext/lib64/vendor.qti.data.slm@1.0.so|2cd1f876afcd8959db067adb8bb1a467fd5d9d3f
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|496982703c92d6b43458c7e1324b212329693ffb
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|3ac82400c2c7c5314277c585b72f08d33021aaee
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|a7462a29278bd1d40889a673aba5b7fa874c6725
-system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so|d61b0440ea99633a138d5a5390628eaaa4e4072b
-system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so|c113793477c938f4c1fcb90db684a4908c801668
-system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|7cafa97c3f4fd1b2e52606721f901c044bcfa85e
-system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|8f6ee7e2269f68ff7e7d77518740e424f136c172
-system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so|61ce2333d9265774ab9b8f6badab23dd54fe5cc5
-system_ext/lib64/vendor.qti.hardware.data.lce@1.0.so|8d36c20e0f6f3b796c4452f3172f042087102750
-system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so|dbede1bf4e67724b1215beda05dbc3531df3b93e
-system_ext/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|ededac47c5254cebd53003424a705f99ebbe6a11
-system_ext/lib64/vendor.qti.hardware.slmadapter@1.0.so|70635ca85b20a3fa2ee7e7f62613337561b48f66
-system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|d87ff622aa4a933501ed605622af4b61ddf426da
-system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so|83e4dd760b63c14cad4d4fb26fd6c96d7083bbbc
-system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|4344e1727e31eeb4edbb9a1e3d4e42a4afdb978f
-system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|37c2b6333ce0fbeb8e2a66b668b68222ab0ba9d8
-system_ext/lib64/vendor.qti.latency@2.0.so|346a9a67699df13a6c553bc3727c0e07b27186c3
-system_ext/lib64/vendor.qti.latency@2.1.so|6f1aabb40bc6f90ec39a1f55c29a6ba63a326f60
 vendor/app/CACertService/CACertService.apk|a430eb051f565ff00f4d8d2aa2dd2a7c8c3bec90
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|6e355ca21e53c8a84794f06e1057e62ff2df1a58
 vendor/app/IWlanService/IWlanService.apk|08472592f4a21ad806c487fc0c70c10bbe7c7ac2
@@ -861,14 +836,6 @@ system_ext/lib/libdiag_system.so|b46c6f0afefeb720fb0ba65add939f4961de6ddf
 system_ext/lib/libimscamera_jni.so|cbac220f366c08f891cc2bdcfde14387ee480438
 system_ext/lib/libimsmedia_jni.so|433e6510b15be6b34380ee8c4b76b55bda40da45
 system_ext/lib/vendor.qti.diaghal@1.0.so|b1b53587b482eabcf0ccaaab83e5ec747d8c124d
-system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so|128788c0d72a038f7ffb83fa54d3dd424044f58f
-system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so|513cdac21c72a069039e02c2b8cb6bc15dc1bf67
-system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so|5ff5ef2bfcc39262033268fff78e8ff52839499d
-system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so|bf06ca52c41ea874ef31004f67f5b2351366f32b
-system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so|ba875bc00dc4a7a08365ad7149e5b0c36ce9dcd7
-system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|c6354e16b958c1b3cb4a59acb3be861c7a81bbbb
-system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so|3dac05fad6a4ba527a33045364519a035f9d8b5f
-system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so|00ba5cd4acb1e1009cac039be628bfb5dd5bcf7d
 system_ext/lib64/lib-imscamera.so|8170256dbf9120ff05f193ba937c718d9c580881
 system_ext/lib64/lib-imsvideocodec.so|3e364441c9dce63d74fbc78c4781a84080513d8a|32594da5eb8639827b7838ca48e953486e8aa807
 system_ext/lib64/lib-imsvt.so|4f96cc5f27551d0b6cb11ad6447d9ce8829dde47
@@ -878,17 +845,6 @@ system_ext/lib64/libdiag_system.so|ead4f1d1065abca6ef47b522c1934eb7623c1813
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|114876ec8ba85965a69694a7edc0e555fe099061
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|b90664b4ce069358f36801da5ceac10baf4ebcc6
 system_ext/lib64/vendor.qti.diaghal@1.0.so|dcc31fc969e846ea58ec91a37c1f1e77b49e731e
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so|4a1519a253ec2f1dab6c24e2c303961b077d771c
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.1.so|ace8ddda0d4d1135d01f0c1bd48f459a72cfe7b1
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.2.so|4028aa61d88c72caed68be750b0a13aa6a4dce2a
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.3.so|b7f8a9bd9d6b3d7eaec92f90a8a2d467a61ffed9
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.4.so|2bb2e9f60e9843f2a03f6d8490edf0b4fbb85351
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.5.so|aae058d428d20423d96755898ef1c7ee99c91b37
-system_ext/lib64/vendor.qti.hardware.radio.ims@1.6.so|adc31e7a965592bf06937634a34a980eef427b1a
-system_ext/lib64/vendor.qti.ims.callcapability@1.0.so|29a5f606fd876042d50357ab0d5fbc9df907b177
-system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|87b7b16b854f2f47706d974f2d3f138e140a4325
-system_ext/lib64/vendor.qti.ims.factory@1.0.so|1421a7d0390c9ecd71c60fac026ca3499dddd913
-system_ext/lib64/vendor.qti.ims.factory@1.1.so|c6c1813b2c6bb68c8c38a6b5ddf320b418bc0da9
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
 system_ext/priv-app/ims/ims.apk|f421b98027c136e7a55bea2ea60540ab3aea2ee9
 
@@ -902,24 +858,6 @@ vendor/bin/energy-awareness|468d5fc803ac4a97ee23f8908feaadd015f96f77
 # QTI_QMI - from from FP3 - 6.A.025.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
-
-# QTI_RADIO - from from FP3 - 6.A.025.0
-system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so|d5e66f2657ee00a277f96e19454ad6c02720b7c2
-system_ext/lib64/vendor.qti.hardware.radio.lpa@1.0.so|210a58bbede876060da62db333fed945e2cd81bf
-system_ext/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|a387855f243b03e424d80e8e1a20fb51d7e52f7d
-system_ext/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so|2ab82fd9d919f8362e032bfa56bcf36ec6b2c0e8
-system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so|d94082f4cb493dd44f14c92a6541c8e74fa67db4
-system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so|de24ea2a101f05c3d7006fc3564eae27fad6b37b
-system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so|51d4e8c94cd1402ccbb0bcd1aa489db82a60b0a6
-system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so|0c643254cf71be699c28a2a18f4ad23e0ebc41fe
-system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so|9ba7f99ae8ee9d14e61ba32a4c550557be9a06b4
-system_ext/lib64/vendor.qti.hardware.radio.uim@1.0.so|5f9ecaedab7414cd36bdaf526a624a82bea7e94f
-system_ext/lib64/vendor.qti.hardware.radio.uim@1.1.so|62edc33abd25654bc2626b0d0ecb8d9a50b688a2
-system_ext/lib64/vendor.qti.hardware.radio.uim@1.2.so|da6b3f2e873f6feb8ba6363f035b5c0151382be9
-system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|fdcb3e7f3a7bc6cfaf35604cf4e0a27166f3c3c3
-system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|0bb666044af53ca0522a57fb749ca61b75effe83
-system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|cdf72f6b0a1646459ba7f1f062cc9d48d1976299
-system_ext/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|f128892e21879fce3434fb6b51bed99e3cc4542c
 
 # QTI_QTEECONNECTOR
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
