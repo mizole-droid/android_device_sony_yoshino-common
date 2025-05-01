@@ -763,6 +763,9 @@ vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|b72b210df26f8022c19feea1e30a4c3d1371e62c
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|244050e4081a6bec273d5481916754b77a52890d
+vendor/lib64/libasn1cper.so|4570be025ca1438da074db7a33e2f690a341a590
+vendor/lib64/libasn1crt.so|f1ab203f5c58750433f07362128c5a835fe8a557
+vendor/lib64/libasn1crtx.so|9ec8d2eedff3a5a333be714ccd76b8c3cf593cf0
 vendor/lib64/libbatching.so|d3d4cb5aefb1ec0618ca2a355b17101dae710914
 vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libcdfw.so|543b8282f4b6719113f04e14dd908137521e2bb5
