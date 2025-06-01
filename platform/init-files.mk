@@ -1,10 +1,5 @@
-# fstab
-PRODUCT_PACKAGES += \
-    fstab.yoshino
-
 # init rc
 PRODUCT_PACKAGES += \
-    init.yoshino.rc \
     init.yoshino.ims.rc \
     init.yoshino.pwr.rc \
     init.yoshino.qcom.rc \
