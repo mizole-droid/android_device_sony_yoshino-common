@@ -126,6 +126,7 @@ module = ExtractUtilsModule(
     'sony',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
+    check_elf=False,
     namespace_imports=namespace_imports,
 )
 
