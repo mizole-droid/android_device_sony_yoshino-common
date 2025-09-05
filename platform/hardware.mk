@@ -143,7 +143,8 @@ PRODUCT_PACKAGES += \
 
 # MEMTRACK
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.memtrack-service
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service
 
 # NETD
 PRODUCT_PACKAGES += \
