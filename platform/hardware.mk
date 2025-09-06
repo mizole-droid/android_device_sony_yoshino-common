@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
 ### GRAPHICS
 PRODUCT_PACKAGES += \
     gralloc.msm8998 \
-    hwcomposer.qcom \
     libdisplayconfig
 
 ### IPACM

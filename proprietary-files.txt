@@ -398,6 +398,42 @@ system/lib/libMiscTaWrapper.so
 system/lib64/libMiscTAApi.sony.so
 system/lib64/libMiscTaWrapper.so
 
+# OSS DISPLAY from LOS-22.0
+vendor/lib/hw/hwcomposer.msm8998.so
+vendor/lib/hw/memtrack.msm8998.so
+vendor/lib/libdrm.so
+vendor/lib/libdrmutils.so
+vendor/lib/libgpu_tonemapper.so
+vendor/lib/libsdmcore.so
+vendor/lib/libsdmutils.so
+vendor/lib/vendor.display.config@1.0.so
+vendor/lib/vendor.display.config@1.1.so
+vendor/lib/vendor.display.config@1.2.so
+vendor/lib/vendor.display.config@1.3.so
+vendor/lib/vendor.display.config@1.4.so
+vendor/lib/vendor.display.config@1.5.so
+vendor/lib/vendor.display.config@1.6.so
+vendor/lib/vendor.display.config@1.7.so
+vendor/lib/vendor.display.config@1.8.so
+vendor/lib/vendor.display.config@1.9.so
+vendor/lib64/hw/hwcomposer.msm8998.so
+vendor/lib64/hw/memtrack.msm8998.so
+vendor/lib64/libdrm.so
+vendor/lib64/libdrmutils.so
+vendor/lib64/libgpu_tonemapper.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
+vendor/lib64/vendor.display.config@1.0.so
+vendor/lib64/vendor.display.config@1.1.so
+vendor/lib64/vendor.display.config@1.2.so
+vendor/lib64/vendor.display.config@1.3.so
+vendor/lib64/vendor.display.config@1.4.so
+vendor/lib64/vendor.display.config@1.5.so
+vendor/lib64/vendor.display.config@1.6.so
+vendor/lib64/vendor.display.config@1.7.so
+vendor/lib64/vendor.display.config@1.8.so
+vendor/lib64/vendor.display.config@1.9.so
+
 # DISPLAY_COLOR
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
@@ -744,9 +780,6 @@ vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|b72b210df26f8022c19feea1e30a4c3d1371e62c
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|244050e4081a6bec273d5481916754b77a52890d
-vendor/lib64/libasn1cper.so|4570be025ca1438da074db7a33e2f690a341a590
-vendor/lib64/libasn1crt.so|f1ab203f5c58750433f07362128c5a835fe8a557
-vendor/lib64/libasn1crtx.so|9ec8d2eedff3a5a333be714ccd76b8c3cf593cf0
 vendor/lib64/libbatching.so|d3d4cb5aefb1ec0618ca2a355b17101dae710914
 vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libcdfw.so|543b8282f4b6719113f04e14dd908137521e2bb5
@@ -953,7 +986,6 @@ vendor/lib64/lib-imsrcs-v2.so|3937e675ce460f3950e04aef67b1d17e7fd227a5
 vendor/lib64/lib-imsrcsbaseimpl.so|8b765d37ac42cb813cf28995fb1359f42f26912f
 vendor/lib64/lib-imsvtcore.so|c3354efe3909f2971a0a4f847c4dddca02bdb81b
 vendor/lib64/lib-imsxml.so|25d01eaf4d9a1a0d5002e8ad27500d19b9adbbe5
-vendor/lib64/lib-rcsconfig.so|0b92e7427537686f9e63b9b68e06eb15ffaf48a5
 vendor/lib64/lib-rtpcommon.so|8c1c8d87c1686bf972035460c588cc75b26e82c6
 vendor/lib64/lib-rtpcore.so|94e6989c19b2f7813fa8996822430a6813cdaf1d
 vendor/lib64/lib-rtpsl.so|44c91df047d3ae8dfc8b747e7fdd1c48d4e48dc0
